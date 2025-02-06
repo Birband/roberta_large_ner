@@ -49,7 +49,14 @@ ner_results = nlp_ner(text)
 print(ner_results)
 ```
 
-## Wyniki modeli
+## Wyniki modeli - Wstępne
+
+| Model                             | F1 Score | Recall | Precision |
+|-----------------------------------|----------|--------|-----------|
+| Birband/roberta_ner_pl (polski)   | 0.805     | 0.872   | 0.748      |
+| Birband/roberta_ner_eng (angielski)| 0.844     | 0.857   | 0.831      |
+
+## Wyniki modeli - WikiNeural
 
 Poniżej znajdują się wyniki metryk dla modeli Birband/roberta_ner_pl (polski) i Birband/roberta_ner_eng (angielski) na datasetach test_pl i test_eng z Babelscape/wikineural.
 
@@ -57,6 +64,7 @@ Poniżej znajdują się wyniki metryk dla modeli Birband/roberta_ner_pl (polski)
 |-----------------------------------|----------|--------|-----------|
 | Birband/roberta_ner_pl (polski)   | 0.805     | 0.872   | 0.748      |
 | Birband/roberta_ner_eng (angielski)| 0.844     | 0.857   | 0.831      |
+
 
 ## Jak uruchomić aplikację
 
