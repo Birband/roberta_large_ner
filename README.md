@@ -79,6 +79,8 @@ cd twoje-repozytorium
 
 Upewnij się, że masz zainstalowane wymagane biblioteki. Możesz to zrobić za pomocą `pip` ale najpierw trzeba ręcznie zainstalować `torch` który obsługuje poprawnie CUDA:
 ```bash
+pip install typing-extensions==4.10
+
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 
 pip install -r requirements.txt
