@@ -1,5 +1,9 @@
 # ROBERTA LARGE NER
 
+## Wersja Python 3.11.5
+
+Kompatybilność zainstalowanych bibliotek wymaga wersji >=3.11.5.
+
 ## O modelach
 
 ### Trenowanie modeli
@@ -72,16 +76,17 @@ Poniżej znajdują się wyniki metryk dla modeli Birband/roberta_ner_pl (polski)
 
 ```bash
 git clone https://github.com/Birband/roberta_large_ner
-cd twoje-repozytorium
+cd roberta_large_ner
 ```
 
 ### Zainstaluj zależności:
 
-Upewnij się, że masz zainstalowane wymagane biblioteki. Możesz to zrobić za pomocą `pip` ale najpierw trzeba ręcznie zainstalować `torch` który obsługuje poprawnie CUDA:
+Upewnij się, że masz zainstalowane wymagane biblioteki. Możesz to zrobić za pomocą `pip`:
 ```bash
-pip install typing-extensions==4.10
-
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
-
 pip install -r requirements.txt
+```
+
+W przypadku gdyby był problem z `torch` i nie działało GPU (CUDA) to należy zainstalować pakiet z  oficjalnej strony:
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 ```
