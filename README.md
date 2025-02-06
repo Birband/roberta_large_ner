@@ -75,8 +75,8 @@ Poniżej znajdują się wyniki metryk dla modeli Birband/roberta_ner_pl (polski)
 ### Sklonuj repozytorium:
 
 ```bash
-git clone https://github.com/Birband/roberta_large_ner
-cd roberta_large_ner
+git clone https://github.com/Birband/roberta_ner_pl_en
+cd roberta_ner_pl_en
 ```
 
 ### Zainstaluj zależności:
